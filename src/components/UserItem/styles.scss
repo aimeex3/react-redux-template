@@ -1,0 +1,29 @@
+.user-item {
+  display: flex;
+  align-items: center;
+  padding: 20px 40px;
+  border-bottom: 1px solid #ccc;
+
+  &:hover {
+    background-color: #f7f7f7;
+    cursor: pointer;
+  }
+
+  img {
+    display: inline-block;
+    margin-right: 30px;
+  }
+
+  .user-avatar {
+    border-radius: 5px;
+  }
+
+  .user-details {
+    display: inline-block;
+  }
+
+  .user-display-name {
+    font-size: 14px;
+    color: #555;
+  }
+}
