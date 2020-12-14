@@ -1,0 +1,19 @@
+#home-page {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.nav-section {
+  flex: 0 0 auto;
+  color: white;
+  width: 220px;
+  background-color: $theme-color;
+  z-index: 2;
+}
+
+.main-section {
+  flex: 1 1 auto;
+  height: 100%;
+  width: 100%;
+}

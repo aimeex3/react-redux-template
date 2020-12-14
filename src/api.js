@@ -9,17 +9,17 @@ function send(path, params) {
   }).then(response => response.json());
 }
 
-function get(path, headers) {
+function get(path, params) {
   return send(path, {
     method: 'GET',
-    headers,
+    ...params,
   });
 }
 
-function post(path, headers) {
+function post(path, params) {
   return send(path, {
     method: 'POST',
-    headers,
+    ...params,
   });
 }
 

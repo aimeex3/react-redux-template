@@ -1,0 +1,23 @@
+$theme-color: purple;
+$hover-color: rgba(50, 50, 50, 0.5);
+$active-color: rgba(40, 40, 40, 0.5);
+.theme-button {
+  height: 40px;
+  color: white;
+  background-color: $theme-color;
+  font-size: 15px;
+  border-radius: 2px;
+  border: none;
+
+  &:disabled {
+    background-color: gray;
+  }
+}
+
+.theme-input {
+  font-size: 15px;
+  height: 40px;
+  border-radius: 2px;
+  border: 1px solid gray;
+  padding: 0 20px;
+}

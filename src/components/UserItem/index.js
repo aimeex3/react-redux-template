@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { useSelector } from 'react-redux';
 import { selectUser } from '../../state/users/selectors';
 
-export default function UserItem({ id }) {
+export const UserItem = ({ id }) => {
   const user = useSelector(state => selectUser(state, id));
   const displayName =
     user.name !== user.profile.display_name && user.profile.display_name;
@@ -16,8 +16,10 @@ export default function UserItem({ id }) {
       </div>
     </li>
   );
-}
+};
 
 UserItem.propTypes = {
   id: PropTypes.string,
 };
+
+export default UserItem;

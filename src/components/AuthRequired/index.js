@@ -4,7 +4,7 @@ import { Redirect, Route } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 import { selectAuthenticatedUser } from '../../state/auth/selectors';
 
-const AuthRequired = ({ children, ...rest }) => {
+export const AuthRequired = ({ children, ...rest }) => {
   const isUserAuthenticated = useSelector(selectAuthenticatedUser);
   return (
     <Route

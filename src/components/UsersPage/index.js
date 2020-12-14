@@ -4,7 +4,7 @@ import { getUsersAction } from '../../state/users/actions';
 import { selectSortedUserIds } from '../../state/users/selectors';
 import UserItem from '../UserItem';
 
-export default function UsersPage() {
+export const UsersPage = () => {
   const dispatch = useDispatch();
   const userIds = useSelector(selectSortedUserIds);
 
@@ -22,4 +22,6 @@ export default function UsersPage() {
       </ul>
     </div>
   );
-}
+};
+
+export default UsersPage;

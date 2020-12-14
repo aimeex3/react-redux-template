@@ -12,7 +12,7 @@ const authReducer = produce((draft, action) => {
     case LOGIN:
       switch (action.status) {
         case SUCCESS: {
-          draft.user = action.payload;
+          draft.user = action.payload.user;
           break;
         }
         default:
