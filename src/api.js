@@ -24,7 +24,7 @@ function post(path, params) {
 }
 
 export function getUsers() {
-  return get('/users');
+  return get('/users.json');
 }
 
 export function setUser(id) {

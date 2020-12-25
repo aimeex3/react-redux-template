@@ -5,6 +5,8 @@
 }
 
 .nav-section {
+  display: flex;
+  flex-direction: column;
   flex: 0 0 auto;
   color: white;
   width: 220px;

@@ -13,8 +13,8 @@ export const UsersPage = () => {
   }, []);
 
   return (
-    <div id="users-page">
-      <h2 id="users-header">Users</h2>
+    <div className="users-page">
+      <h2 className="users-header">Users</h2>
       <ul className="users-list">
         {userIds.map(userId => (
           <UserItem id={userId} key={userId} />

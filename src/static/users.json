@@ -1,0 +1,23 @@
+[
+  {
+    "id": "0",
+    "name": "User1",
+    "profile": {
+      "thumbnail": "https://randomuser.me/api/portraits/thumb/men/75.jpg"
+    }
+  },
+  {
+    "id": "1",
+    "name": "User2",
+    "profile": {
+      "thumbnail": "https://randomuser.me/api/portraits/thumb/men/75.jpg"
+    }
+  },
+  {
+    "id": "2",
+    "name": "User3",
+    "profile": {
+      "thumbnail": "https://randomuser.me/api/portraits/thumb/men/75.jpg"
+    }
+  }
+]

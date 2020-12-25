@@ -45,7 +45,10 @@ module.exports = {
       systemvars: true,
     }),
     new CopyWebpackPlugin({
-      patterns: [{ from: 'src/static/robots.txt' }],
+      patterns: [
+        { from: 'src/static/robots.txt' },
+        { from: 'src/static/users.json' },
+      ],
     }),
   ],
 };

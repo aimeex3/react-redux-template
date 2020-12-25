@@ -9,7 +9,7 @@ export const UserItem = ({ id }) => {
     user.name !== user.profile.display_name && user.profile.display_name;
   return (
     <li className="user-item">
-      <img alt="avatar" className="user-avatar" src={user.profile.image_72} />
+      <img alt="avatar" className="user-avatar" src={user.profile.thumbnail} />
       <div className="user-details">
         <div className="user-name">{user.name}</div>
         <div className="user-display-name">{displayName}</div>
