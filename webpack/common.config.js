@@ -39,7 +39,7 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       template: path.resolve(__dirname, '../src/static/index.html'),
-      favicon: path.resolve(__dirname, '../src/static/images/favicon.ico'),
+      favicon: path.resolve(__dirname, '../src/static/favicon.ico'),
     }),
     new Dotenv({
       systemvars: true,
